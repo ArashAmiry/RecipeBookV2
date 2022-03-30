@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<fx:root onMouseClicked="#onClick" prefHeight="100.0" prefWidth="495.0" stylesheets="@recipe_search.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="itemImage" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="itemCuisine" fitHeight="18.0" fitWidth="36.0" layoutX="116.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/icon_flag_sweden.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="itemName" layoutX="158.0" layoutY="14.0" styleClass="text-larger" text="Stekt Ägg" />
+      <ImageView fx:id="itemMainIngredient" fitHeight="24.0" fitWidth="18.0" layoutX="159.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/icon_main_chicken.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="itemDifficulty" fitHeight="27.0" fitWidth="52.0" layoutX="196.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/icon_difficulty_medium.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="itemTime" layoutX="275.0" layoutY="38.0" text="5 minuter" />
+      <Label fx:id="itemCost" layoutX="363.0" layoutY="38.0" text="12 kr" />
+      <Text fx:id="itemDescription" layoutX="158.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="285.13671875" />
+   </children>
+   <styleClass>
+      <String fx:value="text-normal" />
+      <String fx:value="recipe-list-item" />
+   </styleClass>
+</fx:root>

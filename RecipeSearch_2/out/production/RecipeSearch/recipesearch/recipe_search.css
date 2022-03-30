@@ -1,0 +1,49 @@
+.text-normal{
+    -fx-font-size: 13px;
+    -fx-font-family: "Avenir Book";
+}
+
+.text-smaller{
+    -fx-font-size: 11px;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.text-larger{
+    -fx-font-size: 15px;
+    -fx-font-family: "Comic Sans MS";
+}
+
+#logo{
+    -fx-font-size: 48px;
+    -fx-font-family: "Comic Sans MS";
+}
+
+#logo-twirl{
+    -fx-font-size: 64px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: #FFAC33;
+    -fx-rotate: -20;
+}
+
+.recipe-list-item{
+    -fx-border-width: 1px;
+    -fx-border-color: #999999;
+    -fx-border-radius: 1px;
+    -fx-background-radius: 1px;
+}
+
+.recipe-list-item:hover{
+    -fx-background-color: #FCFCFC;
+}
+
+.recipe-list-item:pressed{
+    -fx-background-color: #D0D0D0;
+}
+
+.text-area .content {
+    -fx-background-color: -fx-background;
+}
+
+.text-area  {
+    -fx-background-color: -fx-background;
+}
